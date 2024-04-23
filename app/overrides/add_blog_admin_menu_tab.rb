@@ -7,3 +7,5 @@ Deface::Override.new(
   partial: "spree/admin/shared/blogs_sidebar_menu",
   disabled: false
 )
+class AddBlogAdminMenuTab
+end
