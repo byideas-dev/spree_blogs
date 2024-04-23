@@ -7,3 +7,5 @@ Deface::Override.new(
   partial: "spree/admin/users/author_info_fields",
   disabled: false
 )
+class AddUserAdminAuthorInfoFields
+end
