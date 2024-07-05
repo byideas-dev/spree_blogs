@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Spree::BlogsController < Spree::Admin::StoresController
+class Spree::BlogsController < Spree::StoresController
   before_action :init_pagination, only: %i[show tag]
 
   def show
