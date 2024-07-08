@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Spree::PostsController < Spree::StoreController
+class Spree::PostsController < Spree::BaseController
   def show
     @blog = Spree::Blog.by_store(current_store).friendly.find(params[:blog_id])
 
